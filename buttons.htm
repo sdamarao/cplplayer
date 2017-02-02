@@ -1,0 +1,490 @@
+<html>
+<head>
+<style type="text/css">
+body {
+margin: 20 100 20 60;
+ line-height:130%;
+ color: #000000;
+background-color: white;
+ font-family: "Arial,Times New Roman";
+ font-size: 8pt;
+ font-weight: normal;
+}
+h1 {font-size:26pt; color: darkgray; margin: 20 0 30 10;}
+h2 {font-size:20pt; color: darkgray; margin: 20 0 30 10;}
+h3 {font-size:16pt; color: gray; margin: 20 0 30 10;}
+h4 {font-size:12pt; color: gray; margin: 20 0 30 10;}
+blockquote {
+margin: 10 0 0 15;
+}
+
+ol {margin: 5 0 0 20;}
+ul {margin: 5 0 0 20;}
+li {margin: 5 0 0 20;}
+
+hr { color:silver; margin: 10 0 0 0;}
+table {
+margin-top: 5px;
+ line-height: 100%;
+ color: #000000;
+background-color: 808080;
+ font-family: "Arial,Times New Roman";
+ font-size: 10pt;
+ font-weight: strong;
+border: 2px solid gray;
+ padding: 5px;
+}
+th {
+margin-top: 5px;
+ line-height: 100%;
+ color: #000000;
+background-color: orange;
+ font-family: "Arial,Times New Roman";
+ font-size: 10pt;
+ font-weight: strong;
+border: 2px;
+ padding: 5px;
+ align: center;
+}
+td {
+margin-top: 5px;
+ line-height: 100%;
+ color: 404040;
+background-color: FFC89E;
+ font-family: "Arial,Times New Roman";
+ font-size: 10pt;
+ font-weight: strong;
+border: 2px;
+ padding: 2px;
+ align: center;
+}
+p {margin:5 0 0 10}
+}
+}
+</style>
+<title>The Magical World of Interactive Buttons</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<h1>The Magical World of Interactive Buttons</h1>
+</head>
+<body>
+<p>&nbsp;</p>
+<h2>Standard iBullet Buttons</h2>
+<h3>Location: common-c/bullets</h3>
+<h4>How to Apply Standard iBullets in XMetaL</h4>
+<p>Go to unordered list UL and set the attributes as follows:</p>
+<ul>
+<li><p><b>bullet-type</b> [SELECT] </p>
+	<ul>
+	<li><p>choices (Yes/No)</p></li>
+	<li><p>decimal (1 &ndash; 7)</p></li>
+	<li><p>folder</p></li>
+	<li><p>key</p></li>
+	</ul>
+</li>
+<li><p><b>interactive</b> click</p></li>
+</ul>
+<!-- These have to be in the DTD, cannot add any technology-->
+<!-- &nbsp;-->
+<!-- &nbsp;-->
+<!--          ..\..\xml\production\common-c\bullets          -->
+<!-- &nbsp;-->
+<p>&nbsp;</p>
+<table width="800">
+<tbody><tr>
+<th style="text-align: center; color: gray" valign="middle">&nbsp;&nbsp;&nbsp;Apply Attribute</th>
+<th style="text-align: center; color: gray" valign="middle">&nbsp;&nbsp;&nbsp;The OFF Image (at rest)</th>
+<th style="text-align: center; color: gray" valign="middle">&nbsp;&nbsp;&nbsp;The ON Image (upon click</th>
+<tr><td align="center">checkmark</td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\checkmark_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\checkmark_on.gif"/></a></td></tr>
+<tr><td align="center">choices</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td align="right">1st in series&nbsp;&nbsp;</td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\choice_yes_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\choice_yes_on.gif"/></a></td></tr>
+<tr><td align="right">2nd in series&nbsp;&nbsp;</td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\choice_no_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\choice_no_on.gif"/></a></td></tr>
+<tr><td align="center">decimal</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td align="right">1st in series&nbsp;&nbsp;</td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\decimal_1_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\decimal_1_on.gif"/></a></td></tr>
+<tr><td align="right">2nd in series&nbsp;&nbsp;</td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\decimal_2_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\decimal_2_on.gif"/></a></td></tr>
+<tr><td align="right">3rd in series&nbsp;&nbsp;</td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\decimal_3_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\decimal_3_on.gif"/></a></td></tr>
+<tr><td align="right">4th in series&nbsp;&nbsp;</td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\decimal_4_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\decimal_4_on.gif"/></a></td></tr>
+<tr><td align="right">5th in series&nbsp;&nbsp;</td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\decimal_5_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\decimal_5_on.gif"/></a></td></tr>
+<tr><td align="right">6th in series&nbsp;&nbsp;</td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\decimal_6_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\decimal_6_on.gif"/></a></td></tr>
+<tr><td align="right">7th in series&nbsp;&nbsp;</td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\decimal_7_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\decimal_7_on.gif"/></a></td></tr>
+<tr><td align="center">folder</td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\folder_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\folder_on.gif"/></a></td></tr>
+<tr><td align="center">key</td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\key_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\bullets\key_on.gif"/></a></td></tr>
+</tbody>
+</table>
+
+
+
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+
+
+
+<h2>Custom iBullet Buttons</h2>
+<h3>Location: common-c/custom-images</h3>
+<h4>How to Apply Custom iBullets in XMetaL</h4>
+<p>Go to unordered list UL and set the attributes as follows:</p>
+<ul>
+<li><p><b>bullet-type</b> custom</p></li>
+<li><p><b>custom-bullet-name</b> [IMAGE] (see note)</p></li>
+<li><p><b>interactive</b> click</p></li>
+</ul>
+<p><br/>Note: Image name, do not include on/off or file extension (e.g.,_on.gif or _off.gif).</p>
+<!-- &nbsp;-->
+<!-- &nbsp;-->
+<!--          ..\..\xml\production\common-c\custom-images          -->
+<!-- <tr><td align="center">NAMEHERE</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\NAMEHERE_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\NAMEHERE_on.gif"/></a></td></tr>
+-->
+
+
+<table width="800">
+<tbody><tr>
+<th style="text-align: center; color: gray" valign="middle">&nbsp;&nbsp;&nbsp;Apply Attribute</th>
+<th style="text-align: center; color: gray" valign="middle">&nbsp;&nbsp;&nbsp;The OFF Image (at rest)</th>
+<th style="text-align: center; color: gray" valign="middle">&nbsp;&nbsp;&nbsp;The ON Image (upon click</th>
+<tr><td align="center">ambulance</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\ambulance_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\ambulance_on.gif"/></a></td></tr>
+<tr><td align="center">anchor</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\anchor_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\anchor_on.gif"/></a></td></tr>
+<tr><td align="center">arrow</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\arrow_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\arrow_on.gif"/></a></td></tr>
+<tr><td align="center">bomb01 New! by Merlot 11/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\bomb01_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\bomb01_on.gif"/></a></td></tr>
+<tr><td align="center">bomb02 New! by Merlot 11/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\bomb02_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\bomb02_on.gif"/></a></td></tr>
+<tr><td align="center">book01 by Arthi 07/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\book01_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\book01_on.gif"/></a></td></tr>
+<tr><td align="center">books01 by Merlot 05/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\books01_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\books01_on.gif"/></a></td></tr>
+<tr><td align="center">box01 by Merlot 05/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\box01_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\box01_on.gif"/></a></td></tr>
+<tr><td align="center">bt1</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\bt1_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\bt1_on.gif"/></a></td></tr>
+<tr><td align="center">bt2</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\bt2_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\bt2_on.gif"/></a></td></tr>
+<tr><td align="center">bt3</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\bt3_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\bt3_on.gif"/></a></td></tr>
+<tr><td align="center">bt4</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\bt4_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\bt4_on.gif"/></a></td></tr>
+<tr><td align="center">bt5</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\bt5_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\bt5_on.gif"/></a></td></tr>
+<tr><td align="center">cal-1857</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cal-1857_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cal-1857_on.gif"/></a></td></tr>
+<tr><td align="center">cal-1921</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cal-1921_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cal-1921_on.gif"/></a></td></tr>
+<tr><td align="center">calculator01 by Deepika 07/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\calculator01_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\calculator01_on.gif"/></a></td></tr>
+<tr><td align="center">calculator02 by Deepika 07/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\calculator02_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\calculator02_on.gif"/></a></td></tr>
+<tr><td align="center">cloud</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cloud_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cloud_on.gif"/></a></td></tr>
+<tr><td align="center">cltax3_v3_certificate_1c_17</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cltax3_v3_certificate_1c_17_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cltax3_v3_certificate_1c_17_on.gif"/></a></td></tr>
+<tr><td align="center">cltufa_v11_3b_12_1</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cltufa_v11_3b_12_1_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cltufa_v11_3b_12_1_on.gif"/></a></td></tr>
+<tr><td align="center">cltufa_v11_3b_12_2</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cltufa_v11_3b_12_2_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cltufa_v11_3b_12_2_on.gif"/></a></td></tr>
+<tr><td align="center">cltufa_v11_3b_12_3</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cltufa_v11_3b_12_3_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cltufa_v11_3b_12_3_on.gif"/></a></td></tr>
+<tr><td align="center">cltufa_v11_4g_44_a</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cltufa_v11_4g_44_a_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cltufa_v11_4g_44_a_on.gif"/></a></td></tr>
+<tr><td align="center">cltufa_v11_4g_44_b</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cltufa_v11_4g_44_b_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cltufa_v11_4g_44_b_on.gif"/></a></td></tr>
+<tr><td align="center">cltufa_v11_4g_44_c</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cltufa_v11_4g_44_c_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cltufa_v11_4g_44_c_on.gif"/></a></td></tr>
+<tr><td align="center">cltufa_v11_4g_44_d</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cltufa_v11_4g_44_d_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cltufa_v11_4g_44_d_on.gif"/></a></td></tr>
+<tr><td align="center">computer by Deepika 02/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\computer_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\computer_on.gif"/></a></td></tr>
+<tr><td align="center">conclusion</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\conclusion_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\conclusion_on.gif"/></a></td></tr>
+<tr><td align="center">cow by Deepika 06/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cow_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cow_on.gif"/></a></td></tr>
+<tr><td align="center">dollarbill by Deepika 02/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\dollarbill_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\dollarbill_on.gif"/></a></td></tr>
+<tr><td align="center">dolphin</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\dolphin_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\dolphin_on.gif"/></a></td></tr>
+<tr><td align="center">facts</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\facts_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\facts_on.gif"/></a></td></tr>
+<tr><td align="center">folder</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\folder_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\folder_on.gif"/></a></td></tr>
+<tr><td align="center">gavel New! by Deepika 11/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\gavel_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\gavel_on.gif"/></a></td></tr>
+<tr><td align="center">house01 by Merlot 05/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\house01_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\house01_on.gif"/></a></td></tr>
+<tr><td align="center">irs by Deepika 02/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\irs_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\irs_on.gif"/></a></td></tr>
+<tr><td align="center">irs_reg</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\irs_reg_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\irs_reg_on.gif"/></a></td></tr>
+<tr><td align="center">issue</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\issue_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\issue_on.gif"/></a></td></tr>
+<tr><td align="center">lamp01 by Merlot 05/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\lamp01_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\lamp01_on.gif"/></a></td></tr>
+<tr><td align="center">letter_a</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\letter_a_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\letter_a_on.gif"/></a></td></tr>
+<tr><td align="center">letter_b</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\letter_b_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\letter_b_on.gif"/></a></td></tr>
+<tr><td align="center">letter_c</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\letter_c_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\letter_c_on.gif"/></a></td></tr>
+<tr><td align="center">lightbulb</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\lightbulb_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\lightbulb_on.gif"/></a></td></tr>
+<tr><td align="center">lightbulb01</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\lightbulb01_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\lightbulb01_on.gif"/></a></td></tr>
+<tr><td align="center">lock02 by Merlot 05/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\lock02_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\lock02_on.gif"/></a></td></tr>
+<tr><td align="center">magicwand</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\magicwand_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\magicwand_on.gif"/></a></td></tr>
+<tr><td align="center">magnifier</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\magnifier_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\magnifier_on.gif"/></a></td></tr>
+<tr><td align="center">mcdscrnote</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcdscrnote_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcdscrnote_on.gif"/></a></td></tr>
+<tr><td align="center">msdscr_v10_intr_actsdisc_1b_19</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\msdscr_v10_intr_actsdisc_1b_19_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\msdscr_v10_intr_actsdisc_1b_19_on.gif"/></a></td></tr>
+<tr><td align="center">msdscr_v5_flag_1b_17</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\msdscr_v5_flag_1b_17_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\msdscr_v5_flag_1b_17_on.gif"/></a></td></tr>
+<tr><td align="center">msdscr_v5_intr_actsdisc_1b_22</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\msdscr_v5_intr_actsdisc_1b_22_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\msdscr_v5_intr_actsdisc_1b_22_on.gif"/></a></td></tr>
+<tr><td align="center">msdscrnote</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\msdscrnote_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\msdscrnote_on.gif"/></a></td></tr>
+<tr><td align="center">mobile01 by Deepika 07/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mobile01_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mobile01_on.gif"/></a></td></tr>
+<tr><td align="center">mobile02 by Deepika 07/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mobile02_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mobile02_on.gif"/></a></td></tr>
+<tr><td align="center">mobile03 by Deepika 07/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mobile03_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mobile03_on.gif"/></a></td></tr>
+<tr><td align="center">mobile04</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mobile04_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mobile04_on.gif"/></a></td></tr>
+<tr><td align="center">money01 by Merlot 05/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\money01_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\money01_on.gif"/></a></td></tr>
+<tr><td align="center">money02 by Merlot 05/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\money02_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\money02_on.gif"/></a></td></tr>
+<tr><td align="center">money03 by Deepika 06/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\money03_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\money03_on.gif"/></a></td></tr>
+<tr><td align="center">money04 by Merlot 05/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\money04_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\money04_on.gif"/></a></td></tr>
+<tr><td align="center">monitor</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\monitor_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\monitor_on.gif"/></a></td></tr>
+<tr><td align="center">num-nine</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\num-nine_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\num-nine_on.gif"/></a></td></tr>
+<tr><td align="center">num-one-2</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\num-one-2_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\num-one-2_on.gif"/></a></td></tr>
+<tr><td align="center">num-one</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\num-one_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\num-one_on.gif"/></a></td></tr>
+<tr><td align="center">paperclip_big1</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\paperclip_big1_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\paperclip_big1_on.gif"/></a></td></tr>
+<tr><td align="center">paperclip_big2</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\paperclip_big2_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\paperclip_big2_on.gif"/></a></td></tr>
+<tr><td align="center">paperclip_big3</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\paperclip_big3_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\paperclip_big3_on.gif"/></a></td></tr>
+<tr><td align="center">paperclip_big4</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\paperclip_big4_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\paperclip_big4_on.gif"/></a></td></tr>
+<tr><td align="center">paperclip_big5</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\paperclip_big5_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\paperclip_big5_on.gif"/></a></td></tr>
+<tr><td align="center">paperclip_sm1</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\paperclip_sm1_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\paperclip_sm1_on.gif"/></a></td></tr>
+<tr><td align="center">paperclip_sm2</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\paperclip_sm2_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\paperclip_sm2_on.gif"/></a></td></tr>
+<tr><td align="center">paperclip_sm3</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\paperclip_sm3_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\paperclip_sm3_on.gif"/></a></td></tr>
+<tr><td align="center">paperclip_sm4</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\paperclip_sm4_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\paperclip_sm4_on.gif"/></a></td></tr>
+<tr><td align="center">paperclip_sm5</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\paperclip_sm5_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\paperclip_sm5_on.gif"/></a></td></tr>
+<tr><td align="center">partnership by Deepika 06/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\partnership_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\partnership_on.gif"/></a></td></tr>
+<tr><td align="center">pen01 by Deepika 07/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pen01_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pen01_on.gif"/></a></td></tr>
+<tr><td align="center">pen02 by Deepika 07/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pen02_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pen02_on.gif"/></a></td></tr>
+<tr><td align="center">pencil by Deepika 07/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pencil_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pencil_on.gif"/></a></td></tr>
+<tr><td align="center">pin</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pin_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pin_on.gif"/></a></td></tr>
+<tr><td align="center">pointinghand01 by Arthi 07/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pointinghand01_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pointinghand01_on.gif"/></a></td></tr>
+<tr><td align="center">pointinghand_a</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pointinghand_a_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pointinghand_a_on.gif"/></a></td></tr>
+<tr><td align="center">pointinghand_b</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pointinghand_b_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pointinghand_b_off.gif"/></a></td></tr>
+<tr><td align="center">pointinghand_c</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pointinghand_c_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pointinghand_c_on.gif"/></a></td></tr>
+<tr><td align="center">pointinghand_d</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pointinghand_d_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pointinghand_d_on.gif"/></a></td></tr>
+<tr><td align="center">pointinghand_e</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pointinghand_e_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pointinghand_e_on.gif"/></a></td></tr>
+<tr><td align="center">pointinghand_f</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pointinghand_f_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pointinghand_f_on.gif"/></a></td></tr>
+<tr><td align="center">pointinghand_g</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pointinghand_g_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pointinghand_g_on.gif"/></a></td></tr>
+<tr><td align="center">pointinghand_h</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pointinghand_h_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\pointinghand_h_on.gif"/></a></td></tr>
+<tr><td align="center">puzzle01 by Merlot 05/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\puzzle01_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\puzzle01_on.gif"/></a></td></tr>
+<tr><td align="center">question</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\question_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\question_on.gif"/></a></td></tr>
+<tr><td align="center">questionmark</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\questionmark_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\questionmark_on.gif"/></a></td></tr>
+<tr><td align="center">r</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\r_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\r_on.gif"/></a></td></tr>
+<tr><td align="center">remember</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\remember_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\remember_on.gif"/></a></td></tr>
+<tr><td align="center">remember01 by Ram 07/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\remember01_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\remember01_on.gif"/></a></td></tr>
+<tr><td align="center">restchair by Deepika 02/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\restchair_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\restchair_on.gif"/></a></td></tr>
+<tr><td align="center">rule</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\rule_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\rule_on.gif"/></a></td></tr>
+<tr><td align="center">shark</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\shark_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\shark_on.gif"/></a></td></tr>
+<tr><td align="center">ship</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\ship_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\ship_on.gif"/></a></td></tr>
+<tr><td align="center">situtation1</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\situtation1_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\situtation1_on.gif"/></a></td></tr>
+<tr><td align="center">situtation2</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\situtation2_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\situtation2_on.gif"/></a></td></tr>
+<tr><td align="center">sports01</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\sports01_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\sports01_on.gif"/></a></td></tr>
+<tr><td align="center">sports02</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\sports02_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\sports02_on.gif"/></a></td></tr>
+<tr><td align="center">sports03</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\sports03_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\sports03_on.gif"/></a></td></tr>
+<tr><td align="center">sports04</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\sports04_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\sports04_on.gif"/></a></td></tr>
+<tr><td align="center">stapler_a</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\stapler_a_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\stapler_a_on.gif"/></a></td></tr>
+<tr><td align="center">stapler_b</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\stapler_b_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\stapler_b_on.gif"/></a></td></tr>
+<tr><td align="center">stapler_c</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\stapler_c_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\stapler_c_on.gif"/></a></td></tr>
+<tr><td align="center">stapler_d</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\stapler_d_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\stapler_d_on.gif"/></a></td></tr>
+<tr><td align="center">stopwatch01 by Merlot 05/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\stopwatch01_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\stopwatch01_on.gif"/></a></td></tr>
+<tr><td align="center">sunglasses</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\sunglasses_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\sunglasses_on.gif"/></a></td></tr>
+<tr><td align="center">thumbtack</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\thumbtack_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\thumbtack_on.gif"/></a></td></tr>
+<tr><td align="center">tractor by Deepika 06/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\tractor_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\tractor_on.gif"/></a></td></tr>
+<tr><td align="center">tractormotor by Deepika 06/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\tractormotor_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\tractormotor_on.gif"/></a></td></tr>
+<tr><td align="center">trolley by Deepika 06/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\trolley_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\trolley_on.gif"/></a></td></tr>
+<tr><td align="center">tropicalfish</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\tropicalfish_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\tropicalfish_on.gif"/></a></td></tr>
+<tr><td align="center">umbrella Created by Irfan</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\umbrella_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\umbrella_on.gif"/></a></td></tr>
+<tr><td align="center">watch</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\watch_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\watch_on.gif"/></a></td></tr>
+<tr><td align="center">waterjug by Deepika 06/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\waterjug_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\waterjug_on.gif"/></a></td></tr>
+<tr><td align="center">yield01 by Ram 07/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\yield01_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\yield01_on.gif"/></a></td></tr>
+<tr><td align="center">yield02 by Ram 07/2015</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\yield02_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\yield02_on.gif"/></a></td></tr>
+<tr><td align="center">RETIRED IMAGES BELOW</td><td align="center"><a><img src="..\..\xml\production\common-c\images\tmbBot.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\images\tmbBot.gif"/></a></td></tr>
+<tr><td align="center">c (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\c_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\c_on.gif"/></a></td></tr>
+<tr><td align="center">cal-1875 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cal-1875_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\cal-1875_on.gif"/></a></td></tr>
+<tr><td align="center">clqkaa_v5_1c_8_a (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\clqkaa_v5_1c_8_a_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\clqkaa_v5_1c_8_a_on.gif"/></a></td></tr>
+<tr><td align="center">clqkaa_v5_1c_8_b (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\clqkaa_v5_1c_8_b_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\clqkaa_v5_1c_8_b_on.gif"/></a></td></tr>
+<tr><td align="center">clqkaa_v5_1c_8_c (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\clqkaa_v5_1c_8_c_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\clqkaa_v5_1c_8_c_on.gif"/></a></td></tr>
+<tr><td align="center">clqkaa_v5_1d_13 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\clqkaa_v5_1d_13_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\clqkaa_v5_1d_13_on.gif"/></a></td></tr>
+<tr><td align="center">clqkaa_v5_1h_61 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\clqkaa_v5_1h_61_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\clqkaa_v5_1h_61_on.gif"/></a></td></tr>
+<tr><td align="center">clqkaa_v5_1i_67 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\clqkaa_v5_1i_67_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\clqkaa_v5_1i_67_on.gif"/></a></td></tr>
+<tr><td align="center">clqkaaCoin (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\clqkaaCoin_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\clqkaaCoin_on.gif"/></a></td></tr>
+<tr><td align="center">f (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\f_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\f_on.gif"/></a></td></tr>
+<tr><td align="center">folder_tiny (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\folder_tiny_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\folder_tiny_on.gif"/></a></td></tr>
+<tr><td align="center">i (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\i_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\i_on.gif"/></a></td></tr>
+<tr><td align="center">mcind_v5_2a_6_10 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcind_v5_2a_6_10_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcind_v5_2a_6_10_on.gif"/></a></td></tr>
+<tr><td align="center">mcind_v5_2a_6_1 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcind_v5_2a_6_1_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcind_v5_2a_6_1_on.gif"/></a></td></tr>
+<tr><td align="center">mcind_v5_2a_6_2 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcind_v5_2a_6_2_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcind_v5_2a_6_2_on.gif"/></a></td></tr>
+<tr><td align="center">mcind_v5_2a_6_3 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcind_v5_2a_6_3_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcind_v5_2a_6_3_on.gif"/></a></td></tr>
+<tr><td align="center">mcind_v5_2a_6_4 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcind_v5_2a_6_4_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcind_v5_2a_6_4_on.gif"/></a></td></tr>
+<tr><td align="center">mcind_v5_2a_6_5 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcind_v5_2a_6_5_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcind_v5_2a_6_5_on.gif"/></a></td></tr>
+<tr><td align="center">mcind_v5_2a_6_6 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcind_v5_2a_6_6_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcind_v5_2a_6_6_on.gif"/></a></td></tr>
+<tr><td align="center">mcind_v5_2a_6_7 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcind_v5_2a_6_7_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcind_v5_2a_6_7_on.gif"/></a></td></tr>
+<tr><td align="center">mcind_v5_2a_6_8 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcind_v5_2a_6_8_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcind_v5_2a_6_8_on.gif"/></a></td></tr>
+<tr><td align="center">mcind_v5_2a_6_9 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcind_v5_2a_6_9_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcind_v5_2a_6_9_on.gif"/></a></td></tr>
+<tr><td align="center">mcindchcp35 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcindchcp35_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcindchcp35_on.gif"/></a></td></tr>
+<tr><td align="center">mcindchecbox (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcindchecbox_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcindchecbox_on.gif"/></a></td></tr>
+<tr><td align="center">mcindfolder1 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcindfolder1_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcindfolder1_on.gif"/></a></td></tr>
+<tr><td align="center">mcindfolder2 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcindfolder2_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcindfolder2_on.gif"/></a></td></tr>
+<tr><td align="center">mcindfolder3 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcindfolder3_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcindfolder3_on.gif"/></a></td></tr>
+<tr><td align="center">mcindfolder4 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcindfolder4_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcindfolder4_on.gif"/></a></td></tr>
+<tr><td align="center">mcindfolder5 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcindfolder5_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcindfolder5_on.gif"/></a></td></tr>
+<tr><td align="center">mcindfolder6 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcindfolder6_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcindfolder6_on.gif"/></a></td></tr>
+<tr><td align="center">mcindman (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcindman_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\mcindman_on.gif"/></a></td></tr>
+<tr><td align="center">msdscr_1b_15 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\msdscr_1b_15_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\msdscr_1b_15_on.gif"/></a></td></tr>
+<tr><td align="center">note (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\note_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\note_on.gif"/></a></td></tr>
+<tr><td align="center">point01 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\point01_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\point01_on.gif"/></a></td></tr>
+<tr><td align="center">point02 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\point02_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\point02_on.gif"/></a></td></tr>
+<tr><td align="center">point03 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\point03_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\point03_on.gif"/></a></td></tr>
+<tr><td align="center">point04 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\point04_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\point04_on.gif"/></a></td></tr>
+<tr><td align="center">point05 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\point05_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\point05_on.gif"/></a></td></tr>
+<tr><td align="center">point06 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\point06_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\point06_on.gif"/></a></td></tr>
+<tr><td align="center">point07 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\point07_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\point07_on.gif"/></a></td></tr>
+<tr><td align="center">scale_a (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\scale_a_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\scale_a_on.gif"/></a></td></tr>
+<tr><td align="center">step1 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\step1_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\step1_on.gif"/></a></td></tr>
+<tr><td align="center">step2 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\step2_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\step2_on.gif"/></a></td></tr>
+<tr><td align="center">step3 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\step3_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\step3_on.gif"/></a></td></tr>
+<tr><td align="center">step4 (retired)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\step4_off.gif"/></a></td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\step4_on.gif"/></a></td></tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<h2>Standard iWrapper Buttons</h2>
+<h3>Location: common-c/images</h3>
+
+<h4><br/>How to Apply Standard iWrappers in XMetaL</h4>
+<p>Go to wrapper and set the attributes as follows:</p>
+<ul>
+<li><p><b>action</b> click</p></li>
+<li><p><b>heading</b> [SELECT]</p>
+	<ol>
+	<li><p>activity</p></li>
+	<li><p>addit-info</p></li>
+	<li><p>application</p></li>
+	<li><p>as2activity</p></li>
+	<li><p>caution</p></li>
+	<li><p>custom</p></li>
+	<li><p>comm.tip</p></li>
+	<li><p>comment</p></li>
+	<li><p>e-learn-tip</p></li>
+	<li><p>example</p></li>
+	<li><p>exception</p></li>
+	<li><p>exercise</p></li>
+	<li><p>general-princ</p></li>
+	<li><p>general-rule</p></li>
+	<li><p>hint</p></li>
+	<li><p>keypts</p></li>
+	<li><p>keyterm</p></li>
+	<li><p>level.auth</p></li>
+	<li><p>limitations</p></li>
+	<li><p>nchan</p></li>
+	<li><p>note</p></li>
+	<li><p>overview</p></li>
+	<li><p>planning</p></li>
+	<li><p>planning.note</p></li>
+	<li><p>practice.note</p></li>
+	<li><p>quote</p></li>
+	<li><p>remember</p></li>
+	<li><p>reminder</p></li>
+	<li><p>research.tip</p></li>
+	<li><p>result</p></li>
+	<li><p>summary</p></li>
+	<li><p>symptom</p></li>
+	<li><p>take-note</p></li>
+	<li><p>watch-out</p></li>
+	</ol>
+</li>
+</ul>
+<p><br/>Note: iWrappers do not have on/off functionality.</p>
+
+
+<!-- &nbsp;-->
+<!-- &nbsp;-->
+<!--          ..\..\xml\production\common-c\images          -->
+<!-- &nbsp;-->
+
+<table width="800">
+<tbody><tr>
+<th style="text-align: center; color: gray" valign="middle">&nbsp;&nbsp;&nbsp;Apply Attribute</th>
+<th style="text-align: center; color: gray" valign="middle">&nbsp;&nbsp;&nbsp;The iWrapper Image</th>
+<tr><td align="center">activity</td><td align="center"><a><img src="..\..\xml\production\common-c\images\activity.gif"/></a></td></tr>
+<tr><td align="center">addit-info</td><td align="center"><a><img src="..\..\xml\production\common-c\images\addit-info.gif"/></a></td></tr>
+<tr><td align="center">application</td><td align="center"><a><img src="..\..\xml\production\common-c\images\application.gif"/></a></td></tr>
+<tr><td align="center">as2activity <br/><br/><I>To be used in Deloitte Private Label courses ONLY</I></td><td align="center"><a><img src="..\..\xml\production\common-c\images\as2activity.gif"/></a></td></tr>
+<tr><td align="center">caution</td><td align="center"><a><img src="..\..\xml\production\common-c\images\caution.gif"/></a></td></tr>
+<tr><td align="center">custom</td><td align="center"><b>see custom iwrappers</b></td></tr>
+<tr><td align="center">comm.tip</td><td align="center"><a><img src="..\..\xml\production\common-c\images\comm-tip.gif"/></a></td></tr>
+<tr><td align="center">comment</td><td align="center"><a><img src="..\..\xml\production\common-c\images\comment.gif"/></a></td></tr>
+<tr><td align="center">e-learn-tip</td><td align="center"><a><img src="..\..\xml\production\common-c\images\e-learn-tip.gif"/></a></td></tr>
+<tr><td align="center">example</td><td align="center"><a><img src="..\..\xml\production\common-c\images\example.gif"/></a></td></tr>
+<tr><td align="center">exception</td><td align="center"><a><img src="..\..\xml\production\common-c\images\exception.gif"/></a></td></tr>
+<tr><td align="center">exercise</td><td align="center"><a><img src="..\..\xml\production\common-c\images\exercise.gif"/></a></td></tr>
+<tr><td align="center">general-princ</td><td align="center"><a><img src="..\..\xml\production\common-c\images\general-princ.gif"/></a></td></tr>
+<tr><td align="center">general-rule</td><td align="center"><a><img src="..\..\xml\production\common-c\images\general-rule.gif"/></a></td></tr>
+<tr><td align="center">hint</td><td align="center"><a><img src="..\..\xml\production\common-c\images\hint.gif"/></a></td></tr>
+<tr><td align="center">keypts</td><td align="center"><a><img src="..\..\xml\production\common-c\images\keypts.gif"/></a></td></tr>
+<tr><td align="center">keyterm</td><td align="center"><a><img src="..\..\xml\production\common-c\images\keyterm.gif"/></a></td></tr>
+<tr><td align="center">level.auth</td><td align="center"><a><img src="..\..\xml\production\common-c\images\level-auth.gif"/></a></td></tr>
+<tr><td align="center">limitations</td><td align="center"><a><img src="..\..\xml\production\common-c\images\limitations.gif"/></a></td></tr>
+<tr><td align="center">nchan</td><td align="center"><a><img src="..\..\xml\production\common-c\images\nchan.gif"/></a></td></tr>
+<tr><td align="center">note</td><td align="center"><a><img src="..\..\xml\production\common-c\images\note.gif"/></a></td></tr>
+<tr><td align="center">overview</td><td align="center"><a><img src="..\..\xml\production\common-c\images\overview.gif"/></a></td></tr>
+<tr><td align="center">planning</td><td align="center"><a><img src="..\..\xml\production\common-c\images\planning.gif"/></a></td></tr>
+<tr><td align="center">planning.note</td><td align="center"><a><img src="..\..\xml\production\common-c\images\planning-note.gif"/></a></td></tr>
+<tr><td align="center">practice.note</td><td align="center"><a><img src="..\..\xml\production\common-c\images\practice-note.gif"/></a></td></tr>
+<tr><td align="center">quote</td><td align="center"><a><img src="..\..\xml\production\common-c\images\quote.gif"/></a></td></tr>
+<tr><td align="center">remember</td><td align="center"><a><img src="..\..\xml\production\common-c\images\remember.gif"/></a></td></tr>
+<tr><td align="center">reminder</td><td align="center"><a><img src="..\..\xml\production\common-c\images\reminder.gif"/></a></td></tr>
+<tr><td align="center">research.tip</td><td align="center"><a><img src="..\..\xml\production\common-c\images\research-tip.gif"/></a></td></tr>
+<tr><td align="center">result</td><td align="center"><a><img src="..\..\xml\production\common-c\images\result.gif"/></a></td></tr>
+<tr><td align="center">summary</td><td align="center"><a><img src="..\..\xml\production\common-c\images\summary.gif"/></a></td></tr>
+<tr><td align="center">symptom</td><td align="center"><a><img src="..\..\xml\production\common-c\images\symptom.gif"/></a></td></tr>
+<tr><td align="center">take-note</td><td align="center"><a><img src="..\..\xml\production\common-c\images\take-note.gif"/></a></td></tr>
+<tr><td align="center">watch-out</td><td align="center"><a><img src="..\..\xml\production\common-c\images\watch-out.gif"/></a></td></tr>
+</tbody>
+</table>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<h2>Custom iWrapper Buttons</h2>
+<h3>Location: common-c/custom-images</h3>
+<h4><br/>How to Apply Custom iWrappers in XMetaL</h4>
+<p>&nbsp;</p>
+<p>Go to wrapper and set the attributes as follows:</p>
+<ul>
+<li><p><b>action</b> click</p></li>
+<li><p><b>customheading</b> [Wording]</p></li>
+<li><p><b>customimage</b> [image.gif]</p></li>
+<li><p><b>heading</b> custom</p></li>
+</ul>
+<p><br/>Note 1: iWrappers do not have on/off functionality.</p>
+<p>Note 2: here are 10 numbered examples ... </p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<!-- &nbsp;-->
+<!-- &nbsp;-->
+<!--          ..\..\xml\production\common-c\custom-images          -->
+<!-- &nbsp;-->
+
+<table width="800">
+<tbody><tr>
+<th style="text-align: center; color: gray" valign="middle">&nbsp;&nbsp;&nbsp;Custom Heading</th>
+<th style="text-align: center; color: gray" valign="middle">&nbsp;&nbsp;&nbsp;Filename</th>
+<th style="text-align: center; color: gray" valign="middle">&nbsp;&nbsp;&nbsp;The iWrapper Image</th></tr>
+<tr>
+<td align="center">remember01 by Ram 07/2015</td><td align="center">remember01.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\remember01.gif"/></a></td></tr>
+<td align="center">yield01 by Ram 07/2015</td><td align="center">yield01.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\yield01.gif"/></a></td></tr>
+<td align="center">Answer</td><td align="center">answer.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\answer.gif"/></a></td></tr>
+<td align="center">Bell Created by Deepika!</td><td align="center">bell.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\bell.gif"/></a></td></tr>
+<td align="center">California</td><td align="center">california.gif (circle)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\california.gif"/></a></td></tr>
+<td align="center">California</td><td align="center">california_one.gif (outline)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\california_one.gif"/></a></td></tr>
+<td align="center">Clock (1) Created by Deepika!</td><td align="center">clock1.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\clock1.gif"/></a></td></tr>
+<td align="center">Clock (2) Created by Deepika!</td><td align="center">clock2.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\clock2.gif"/></a></td></tr>
+<td align="center">Conclusion</td><td align="center">conclusion.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\conclusion.gif"/></a></td></tr>
+<td align="center">Connecticut (circle)</td><td align="center">connecticut.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\connecticut.gif"/></a></td></tr>
+<td align="center">Employee Benefit Plans</td><td align="center">emp-bene-plans.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\emp-bene-plans.gif"/></a></td></tr>
+<td align="center">Examples</td><td align="center">examples.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\examples.gif"/></a></td></tr>
+<td align="center">IRS Custom Note <br/><br/><I>To be used in IRS Private Label courses ONLY</I></td><td align="center">irsnote.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\irsnote.gif"/></a></td></tr>
+<td align="center">Investigate (retired)</td><td align="center">magnifierbig.gif (cartoon option)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\magnifierbig.gif"/></a></td></tr>
+<td align="center">Investigate (retired)</td><td align="center">magnifier1.gif (photo option)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\magnifier1.gif"/></a></td></tr>
+<td align="center">Maine</td><td align="center">maine.gif (circle)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\maine.gif"/></a></td></tr>
+<td align="center">Maine</td><td align="center">maine_one.gif (outline)</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\maine_one.gif"/></a></td></tr>
+<td align="center">Question (retired)</td><td align="center">questionbigblue.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\questionbigblue.gif"/></a></td></tr>
+<td align="center">Response</td><td align="center">response.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\response.gif"/></a></td></tr>
+<td align="center">Warning</td><td align="center">warning.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\warning.gif"/></a></td></tr>
+<th style="text-align: center; color: gray" valign="middle">&nbsp;&nbsp;&nbsp;Custom Heading</th>
+<th style="text-align: center; color: gray" valign="middle">&nbsp;&nbsp;&nbsp;Filename</th>
+<th style="text-align: center; color: gray" valign="middle">&nbsp;&nbsp;&nbsp;Numbered Examples</th></tr>
+<tr>
+<td align="center">Example 1</td><td align="center">example1.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\example1.gif"/></a></td></tr>
+<td align="center">Example 2</td><td align="center">example2.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\example2.gif"/></a></td></tr>
+<td align="center">Example 3</td><td align="center">example3.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\example3.gif"/></a></td></tr>
+<td align="center">Example 4</td><td align="center">example4.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\example4.gif"/></a></td></tr>
+<td align="center">Example 5</td><td align="center">example5.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\example5.gif"/></a></td></tr>
+<td align="center">Example 6</td><td align="center">example6.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\example6.gif"/></a></td></tr>
+<td align="center">Example 7</td><td align="center">example7.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\example7.gif"/></a></td></tr>
+<td align="center">Example 8</td><td align="center">example8.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\example8.gif"/></a></td></tr>
+<td align="center">Example 9</td><td align="center">example9.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\example9.gif"/></a></td></tr>
+<td align="center">Example 10</td><td align="center">example10.gif</td><td align="center"><a><img src="..\..\xml\production\common-c\custom-images\example10.gif"/></a></td></tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;====================================</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<!--<a href="URL ADDRESS"><img src="URL OF THE FIRST IMAGE GOES HERE" onmouseover="this.src='URL OF THE SECOND IMAGE GOES HERE'" onmouseout="this.src='URL OF THE FIRST IMAGE GOES HERE'"/></a>-->
+<font>
+</body></html>
